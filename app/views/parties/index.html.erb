@@ -1,0 +1,4 @@
+<p><% @parties.each do |p| %></p>
+Party name: <a href="/parties/<%= p.id %>"><%= p.name %> </a><br>
+Date: <%= p.date %>
+<% end %>

@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+party = Party.create({name: 'Sim', date: '2019-12-16', supplies: 'Chips, Soda', budget: '500', private: 'true'})
+party = Party.create({name: 'Don', date: '2019-12-17', supplies: 'Chicken, Fries', budget: '1000', private: 'true'})
+
